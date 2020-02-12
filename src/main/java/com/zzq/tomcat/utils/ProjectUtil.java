@@ -21,7 +21,7 @@ public class ProjectUtil {
 
     final String JAVAEE_SUFFIX = "/WEB-INF/web.xml";
 
-    public static ProjectUtil projectUtil;
+    public volatile static ProjectUtil projectUtil;
 
     private ProjectUtil() {
     }
